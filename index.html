@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone word game TRY</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="form-container">
+      <div id="image-container">
+        <img
+          src="assets/word game images/ultra instinct goku.jpeg"
+          alt="Word game images"
+        />
+      </div>
+      <div id="text-container">
+        <h1 id="title-container">WORD GAME</h1>
+        <h3 id="guess-text">Guess the word by clicking the letters below.</h3>
+        <h3 id="lives-text">Choose wisely, you only have 6 lives!</h3>
+        <h3>Category: Silver hair anime characters</h3>
+        <h3 id="hint-text"></h3>
+        <h3 id="lives-container">Lives 6/6</h3>
+        <p id="correct-word"></p>
+        <div id="keybord-buttons">
+          <button value="q" onclick="guess.call(this)">Q</button>
+          <button value="w" onclick="guess.call(this)">W</button>
+          <button value="e" onclick="guess.call(this)">E</button>
+          <button value="r" onclick="guess.call(this)">R</button>
+          <button value="t" onclick="guess.call(this)">T</button>
+          <button value="y" onclick="guess.call(this)">Y</button>
+          <button value="u" onclick="guess.call(this)">U</button>
+          <button value="i" onclick="guess.call(this)">I</button>
+          <button value="o" onclick="guess.call(this)">O</button>
+          <button value="p" onclick="guess.call(this)">P</button>
+          <button value="a" onclick="guess.call(this)">A</button>
+          <button value="s" onclick="guess.call(this)">S</button>
+          <button value="d" onclick="guess.call(this)">D</button>
+          <button value="f" onclick="guess.call(this)">F</button>
+          <button value="g" onclick="guess.call(this)">G</button>
+          <button value="h" onclick="guess.call(this)">H</button>
+          <button value="j" onclick="guess.call(this)">J</button>
+          <button value="k" onclick="guess.call(this)">K</button>
+          <button value="l" onclick="guess.call(this)">L</button>
+          <button value="z" onclick="guess.call(this)">Z</button>
+          <button value="x" onclick="guess.call(this)">X</button>
+          <button value="c" onclick="guess.call(this)">C</button>
+          <button value="v" onclick="guess.call(this)">V</button>
+          <button value="b" onclick="guess.call(this)">B</button>
+          <button value="n" onclick="guess.call(this)">N</button>
+          <button value="m" onclick="guess.call(this)">M</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="game-over-overlay" style="display: none">
+      <img src="assets/word game images/game-over.webp" alt="" />
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
